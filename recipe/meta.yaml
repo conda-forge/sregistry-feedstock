@@ -14,7 +14,7 @@ build:
   entry_points:
     - sregistry=sregistry.client:main
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
-  noarch: python
+  skip: True  # [win]
 
 requirements:
   host:
