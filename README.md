@@ -15,11 +15,49 @@ Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table>
+    
+  <tr>
+    <td>Azure</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=master">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=master">
-      </a>
+      <details>
+        <summary>
+          <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=master">
+            <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=master">
+          </a>
+        </summary>
+        <table>
+          <thead><tr><th>Variant</th><th>Status</th></tr></thead>
+          <tbody><tr>
+              <td>linux</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=master&jobName=linux&configuration=linux_" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=master">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=master&jobName=osx&configuration=osx_" alt="variant">
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </details>
+    </td>
+  </tr>
+  <tr>
+    <td>Windows</td>
+    <td>
+      <img src="https://img.shields.io/badge/Windows-disabled-lightgrey.svg" alt="Windows disabled">
+    </td>
+  </tr>
+  <tr>
+    <td>Linux_ppc64le</td>
+    <td>
+      <img src="https://img.shields.io/badge/ppc64le-disabled-lightgrey.svg" alt="ppc64le disabled">
     </td>
   </tr>
 </table>
@@ -30,6 +68,16 @@ Current release info
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry-green.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--aws-green.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--dropbox-green.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--globus-green.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--build-green.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--compute-green.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--drive-green.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--storage-green.svg)](https://anaconda.org/conda-forge/sregistry-google-storage) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-storage.svg)](https://anaconda.org/conda-forge/sregistry-google-storage) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-storage.svg)](https://anaconda.org/conda-forge/sregistry-google-storage) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-storage.svg)](https://anaconda.org/conda-forge/sregistry-google-storage) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--registry-green.svg)](https://anaconda.org/conda-forge/sregistry-registry) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-registry.svg)](https://anaconda.org/conda-forge/sregistry-registry) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-registry.svg)](https://anaconda.org/conda-forge/sregistry-registry) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-registry.svg)](https://anaconda.org/conda-forge/sregistry-registry) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--s3-green.svg)](https://anaconda.org/conda-forge/sregistry-s3) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-s3.svg)](https://anaconda.org/conda-forge/sregistry-s3) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-s3.svg)](https://anaconda.org/conda-forge/sregistry-s3) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-s3.svg)](https://anaconda.org/conda-forge/sregistry-s3) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--swift-green.svg)](https://anaconda.org/conda-forge/sregistry-swift) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-swift.svg)](https://anaconda.org/conda-forge/sregistry-swift) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-swift.svg)](https://anaconda.org/conda-forge/sregistry-swift) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-swift.svg)](https://anaconda.org/conda-forge/sregistry-swift) |
 
 Installing sregistry
 ====================
@@ -40,10 +88,10 @@ Installing `sregistry` from the `conda-forge` channel can be achieved by adding 
 conda config --add channels conda-forge
 ```
 
-Once the `conda-forge` channel has been enabled, `sregistry` can be installed with:
+Once the `conda-forge` channel has been enabled, `sregistry, sregistry-aws, sregistry-dropbox, sregistry-globus, sregistry-google-build, sregistry-google-compute, sregistry-google-drive, sregistry-google-storage, sregistry-registry, sregistry-s3, sregistry-swift` can be installed with:
 
 ```
-conda install sregistry
+conda install sregistry sregistry-aws sregistry-dropbox sregistry-globus sregistry-google-build sregistry-google-compute sregistry-google-drive sregistry-google-storage sregistry-registry sregistry-s3 sregistry-swift
 ```
 
 It is possible to list all of the versions of `sregistry` available on your platform with:
