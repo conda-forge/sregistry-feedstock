@@ -1,20 +1,20 @@
 {% set name = "sregistry" %}
-{% set version = "0.2.34" %}
+{% set version = "0.2.35" %}
 
 package:
-  name: "{{ name|lower }}"
-  version: "{{ version }}"
+  name: {{ name|lower }}
+  version: {{ version }}
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2d10ad85c706ff51f465ac7794ea8b624e5ff9879a4e2901742276e738f82164
+  sha256: 58a2d85abd87d2dc72422eb054416ef75585bf602dbba1c6d4aa6d3bc4e1259c
 
 build:
   number: 0
   entry_points:
     - sregistry=sregistry.client:main
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv "
-  skip: True  # [win or py2k]
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
+  skip: true  # [win or py2k]
 
 requirements:
   host:
