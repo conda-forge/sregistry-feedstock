@@ -1,5 +1,5 @@
 {% set name = "sregistry" %}
-{% set version = "0.2.36" %}
+{% set version = "0.2.38" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 238ebd3ca0e0408e0be6780d45deca79583ce99aed05ac6981da7a2b375ae79e
+  sha256: 2812e107fcd9349130111658d11e15ef64e2d10c399b823403b432f072c8df1b
 
 build:
   number: 0
