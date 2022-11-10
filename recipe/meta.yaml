@@ -10,7 +10,7 @@ source:
   sha256: 2812e107fcd9349130111658d11e15ef64e2d10c399b823403b432f072c8df1b
 
 build:
-  number: 1
+  number: 2
   entry_points:
     - sregistry=sregistry.client:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
