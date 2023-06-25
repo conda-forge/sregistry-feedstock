@@ -93,6 +93,7 @@ outputs:
     requirements:
       host:
         - python
+        - setuptools
       run:
         - python
         - {{ pin_subpackage('sregistry', exact=True) }}
