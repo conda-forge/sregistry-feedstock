@@ -96,6 +96,7 @@ outputs:
         - setuptools
       run:
         - python
+        - setuptools
         - {{ pin_subpackage('sregistry', exact=True) }}
         - dropbox >=8.5.1
     test:
