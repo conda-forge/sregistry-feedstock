@@ -1,11 +1,11 @@
-About sregistry
-===============
+About sregistry-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sregistry-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/singularityhub/sregistry-cli
 
 Package license: MPL-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/sregistry-feedstock/blob/main/LICENSE.txt)
 
 Summary: Command line tool for working with container storage
 
