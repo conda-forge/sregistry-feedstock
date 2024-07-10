@@ -10,7 +10,7 @@ source:
   sha256: db8805e963d34a4fbda329c08d2e913667e01f8ed1511e6597dc8cc4b3ce6d24
 
 build:
-  number: 1
+  number: 2
   entry_points:
     - sregistry=sregistry.client:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
@@ -102,18 +102,6 @@ outputs:
     test:
       imports:
         - sregistry.main.dropbox
-  - name: sregistry-globus
-    requirements:
-      host:
-        - python
-      run:
-        - python
-        - {{ pin_subpackage('sregistry', exact=True) }}
-        - oauth2client >=3.0
-        - globus-sdk >=1.5.0
-    test:
-      imports:
-        - sregistry.main.globus
   - name: sregistry-google-storage
     requirements:
       host:
