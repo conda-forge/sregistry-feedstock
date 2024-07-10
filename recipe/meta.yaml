@@ -102,18 +102,6 @@ outputs:
     test:
       imports:
         - sregistry.main.dropbox
-  - name: sregistry-globus
-    requirements:
-      host:
-        - python
-      run:
-        - python
-        - {{ pin_subpackage('sregistry', exact=True) }}
-        - oauth2client >=3.0
-        - globus-sdk >=1.5.0
-    test:
-      imports:
-        - sregistry.main.globus
   - name: sregistry-google-storage
     requirements:
       host:
