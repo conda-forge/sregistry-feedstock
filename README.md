@@ -52,17 +52,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_python3.8.____cpython</td>
+              <td>linux_64_python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>linux_64_python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_python3.13.____cp313" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -94,17 +87,10 @@ Current build status
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_python3.8.____cpython</td>
+              <td>osx_64_python3.13.____cp313</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_64_python3.9.____73_pypy</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=6805&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.9.____73_pypy" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/sregistry-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_python3.13.____cp313" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -130,7 +116,6 @@ Current release info
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry-green.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry.svg)](https://anaconda.org/conda-forge/sregistry) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--aws-green.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-aws.svg)](https://anaconda.org/conda-forge/sregistry-aws) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--dropbox-green.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-dropbox.svg)](https://anaconda.org/conda-forge/sregistry-dropbox) |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--globus-green.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-globus.svg)](https://anaconda.org/conda-forge/sregistry-globus) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--build-green.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-build.svg)](https://anaconda.org/conda-forge/sregistry-google-build) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--compute-green.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-compute.svg)](https://anaconda.org/conda-forge/sregistry-google-compute) |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-sregistry--google--drive-green.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/sregistry-google-drive.svg)](https://anaconda.org/conda-forge/sregistry-google-drive) |
@@ -149,16 +134,16 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `sregistry, sregistry-aws, sregistry-dropbox, sregistry-globus, sregistry-google-build, sregistry-google-compute, sregistry-google-drive, sregistry-google-storage, sregistry-registry, sregistry-s3, sregistry-swift` can be installed with `conda`:
+Once the `conda-forge` channel has been enabled, `sregistry, sregistry-aws, sregistry-dropbox, sregistry-google-build, sregistry-google-compute, sregistry-google-drive, sregistry-google-storage, sregistry-registry, sregistry-s3, sregistry-swift` can be installed with `conda`:
 
 ```
-conda install sregistry sregistry-aws sregistry-dropbox sregistry-globus sregistry-google-build sregistry-google-compute sregistry-google-drive sregistry-google-storage sregistry-registry sregistry-s3 sregistry-swift
+conda install sregistry sregistry-aws sregistry-dropbox sregistry-google-build sregistry-google-compute sregistry-google-drive sregistry-google-storage sregistry-registry sregistry-s3 sregistry-swift
 ```
 
 or with `mamba`:
 
 ```
-mamba install sregistry sregistry-aws sregistry-dropbox sregistry-globus sregistry-google-build sregistry-google-compute sregistry-google-drive sregistry-google-storage sregistry-registry sregistry-s3 sregistry-swift
+mamba install sregistry sregistry-aws sregistry-dropbox sregistry-google-build sregistry-google-compute sregistry-google-drive sregistry-google-storage sregistry-registry sregistry-s3 sregistry-swift
 ```
 
 It is possible to list all of the versions of `sregistry` available on your platform with `conda`:
