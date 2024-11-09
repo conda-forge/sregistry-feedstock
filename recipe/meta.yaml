@@ -6,11 +6,11 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: db8805e963d34a4fbda329c08d2e913667e01f8ed1511e6597dc8cc4b3ce6d24
 
 build:
-  number: 2
+  number: 3
   entry_points:
     - sregistry=sregistry.client:main
   script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vv '
